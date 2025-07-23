@@ -1,0 +1,21 @@
+{
+  "Template": {
+    "Points": 0,
+    "Range (Km)": 0,
+    "Projectile Speed (m/s)": 0,
+    "Shots per Second": 0,
+    "Shots in Clip": 0,
+    "Penetration/Clip (HA Blocks)": 0,
+    "Splash Radius (meters)": 0,
+    "Delay Before Shot": 0,
+    "Cycle Time": 0,
+    "Max Energy Draw/s (MW)": 0,
+    "Charge Reload Time": 0,
+    "Mass": 0,
+    "Raw Integrity": 0,
+    "Resistance": 0,
+    "Effective Integrity": 0,
+    "Blocks Occupied": 0
+  },
+  "M240 Cyclone Strike Cannon": {}
+}
