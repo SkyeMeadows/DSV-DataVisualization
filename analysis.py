@@ -16,8 +16,8 @@ while True:
         break
 
 print("\nCurrent Attributes:")
-for attr, value in data[weapon_name].items():
-    print(f"    {attr}: {value}")
+for attribute, value in data[weapon_name].items():
+    print(f"    {attribute}: {value}")
 
 attribute = input("\nEnter Attribute to change or add: ").strip()
 current_value = data[weapon_name].get(attribute, "<Not Set>")
