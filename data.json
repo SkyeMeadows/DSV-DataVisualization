@@ -13,7 +13,7 @@
     "Effective Integrity": 0
   },
   "Flechette Launcher": {
-    "Points": 0,
+    "Points": 6,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -26,7 +26,7 @@
     "Effective Integrity": 0
   },
   "M5D-4E Helios Plasma Rifle": {
-    "Points": 0,
+    "Points": 8,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -39,7 +39,7 @@
     "Effective Integrity": 0
   },
   "ML-70 Longbow Missile Launcher": {
-    "Points": 0,
+    "Points": 8,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -52,7 +52,7 @@
     "Effective Integrity": 0
   },
   "HA-4ML2 Poseidon Salvo Launcher": {
-    "Points": 0,
+    "Points": 30,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -65,7 +65,7 @@
     "Effective Integrity": 0
   },
   "Warrior Heavy Gatling Gun": {
-    "Points": 0,
+    "Points": 16,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -78,7 +78,7 @@
     "Effective Integrity": 0
   },
   "Warrior Heavy Gatling Casemate": {
-    "Points": 0,
+    "Points": 20,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -91,7 +91,7 @@
     "Effective Integrity": 0
   },
   "Mace Combat Shotgun": {
-    "Points": 0,
+    "Points": 20,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -104,7 +104,7 @@
     "Effective Integrity": 0
   },
   "M100-V Prometheus Focus Beam Lance": {
-    "Points": 0,
+    "Points": 20,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -122,7 +122,7 @@
     "Blocks Occupied": 0
   },
   "TL-150 Astraeus Torpedo Launcher": {
-    "Points": 0,
+    "Points": 100,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -135,7 +135,7 @@
     "Effective Integrity": 0
   },
   "ML-T8 Gladiator Tactical Launcher": {
-    "Points": 0,
+    "Points": 25,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -148,7 +148,7 @@
     "Effective Integrity": 0
   },
   "M600 Tempest Strike Cannon": {
-    "Points": 0,
+    "Points": 12,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -161,7 +161,7 @@
     "Effective Integrity": 0
   },
   "M480 Tsunami Strike Cannon Casemate": {
-    "Points": 0,
+    "Points": 14,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -174,7 +174,7 @@
     "Effective Integrity": 0
   },
   "Hunter-405 Coilgun": {
-    "Points": 0,
+    "Points": 55,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -187,7 +187,7 @@
     "Effective Integrity": 0
   },
   "CO-P3 Sunderer Heavy Lance": {
-    "Points": 0,
+    "Points": 75,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -200,7 +200,7 @@
     "Effective Integrity": 0
   },
   "M-1000 Avalance Siege Mortar": {
-    "Points": 0,
+    "Points": 130,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -213,7 +213,7 @@
     "Effective Integrity": 0
   },
   "Ares Heavy Railgun": {
-    "Points": 0,
+    "Points": 100,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -226,7 +226,7 @@
     "Effective Integrity": 0
   },
   "Predator-850 Coilgun": {
-    "Points": 0,
+    "Points": 110,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -239,7 +239,7 @@
     "Effective Integrity": 0
   },
   "R1-S Interceptor Rocket Pod": {
-    "Points": 0,
+    "Points": 1,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -252,7 +252,7 @@
     "Effective Integrity": 0
   },
   "MG25 Rampart Chaingun": {
-    "Points": 0,
+    "Points": 1,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -265,7 +265,7 @@
     "Effective Integrity": 0
   },
   "M120 Whirlwind Strike Cannon": {
-    "Points": 0,
+    "Points": 2,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -278,7 +278,7 @@
     "Effective Integrity": 0
   },
   "AC54 Chord Autocannon": {
-    "Points": 0,
+    "Points": 2,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -291,7 +291,7 @@
     "Effective Integrity": 0
   },
   "MG50 ATLAS Point Defence Cannon": {
-    "Points": 0,
+    "Points": 3,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -304,7 +304,7 @@
     "Effective Integrity": 0
   },
   "Riptide Flak Turret": {
-    "Points": 0,
+    "Points": 3,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -317,7 +317,7 @@
     "Effective Integrity": 0
   },
   "SR-75 Sentinel Smartgun": {
-    "Points": 0,
+    "Points": 4,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -330,7 +330,7 @@
     "Effective Integrity": 0
   },
   "Oculus Orb-PD Laser": {
-    "Points": 0,
+    "Points": 2,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -343,7 +343,7 @@
     "Effective Integrity": 0
   },
   "TEB101 - Ancile": {
-    "Points": 0,
+    "Points": 2,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -356,7 +356,7 @@
     "Effective Integrity": 0
   },
   "Aurora Combat Laser": {
-    "Points": 0,
+    "Points": 5,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -369,7 +369,7 @@
     "Effective Integrity": 0
   },
   "PL16(-C) Gravastar Laser Turret": {
-    "Points": 0,
+    "Points": 4,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -382,7 +382,7 @@
     "Effective Integrity": 0
   },
   "Nucleon Laser Shotgun": {
-    "Points": 0,
+    "Points": 2,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -395,7 +395,7 @@
     "Effective Integrity": 0
   },
   "EB-10 Nova Phase Blaster": {
-    "Points": 0,
+    "Points": 3,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -408,7 +408,7 @@
     "Effective Integrity": 0
   },
   "RL6 Hydra Rocket Battery": {
-    "Points": 0,
+    "Points": 5,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -421,7 +421,7 @@
     "Effective Integrity": 0
   },
   "M240 Cyclone Strike Cannon": {
-    "Points": 0,
+    "Points": 4,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -434,7 +434,7 @@
     "Effective Integrity": 0
   },
   "AC85 Echo Autocannon": {
-    "Points": 0,
+    "Points": 4,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -447,7 +447,7 @@
     "Effective Integrity": 0
   },
   "F4-GL Thrasher Heavy Flak Cannon": {
-    "Points": 0,
+    "Points": 5,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -460,7 +460,7 @@
     "Effective Integrity": 0
   },
   "KR115 Athena Picket Railgun Turret": {
-    "Points": 0,
+    "Points": 8,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -472,8 +472,8 @@
     "Charge Reload Time": 0,
     "Effective Integrity": 0
   },
-  "BR-RT7 Punsiher Burst Cannon": {
-    "Points": 0,
+  "BR-RT7 Punisher Burst Cannon": {
+    "Points": 10,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -485,8 +485,8 @@
     "Charge Reload Time": 0,
     "Effective Integrity": 0
   },
-  "MG65-T Vulcan Gatling Cannon":{
-    "Points": 0,
+  "MG65-T Vulcan Gatling Cannon": {
+    "Points": 12,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -499,7 +499,7 @@
     "Effective Integrity": 0
   },
   "T200A1 Pulsar Shock Cannon": {
-    "Points": 0,
+    "Points": 6,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -512,7 +512,7 @@
     "Effective Integrity": 0
   },
   "AL35 Spartan Plasma Cannon": {
-    "Points": 0,
+    "Points": 16,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -525,7 +525,7 @@
     "Effective Integrity": 0
   },
   "VL6 Modulus Variable Laser": {
-    "Points": 0,
+    "Points": 8,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -537,8 +537,8 @@
     "Charge Reload Time": 0,
     "Effective Integrity": 0
   },
-  "M8G-LS4 Longsword Missile Battery":{
-    "Points": 0,
+  "M8G-LS4 Longsword Missile Battery": {
+    "Points": 20,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -551,7 +551,7 @@
     "Effective Integrity": 0
   },
   "M480 Hurricane Strike Cannon": {
-    "Points": 0,
+    "Points": 14,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -564,7 +564,20 @@
     "Effective Integrity": 0
   },
   "KR250 Apollo Railgun Turret": {
-    "Points": 0,
+    "Points": 25,
+    "Range (Km)": 0,
+    "Projectile Speed (m/s)": 0,
+    "Shots per Second": 0,
+    "Shots in Clip": 0,
+    "Penetration/Clip (HA Blocks)": 0,
+    "Splash Radius (meters)": 0,
+    "Cycle Time": 0,
+    "Max Energy Draw/s (MW)": 0,
+    "Charge Reload Time": 0,
+    "Effective Integrity": 0
+  },
+  "KR250 Artemis Railgun": {
+    "Points": 15,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -577,7 +590,7 @@
     "Effective Integrity": 0
   },
   "M600 Typhoon Strike Cannon": {
-    "Points": 0,
+    "Points": 40,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -590,7 +603,7 @@
     "Effective Integrity": 0
   },
   "T400A2 Quasar Shock Cannon": {
-    "Points": 0,
+    "Points": 30,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -602,8 +615,8 @@
     "Charge Reload Time": 0,
     "Effective Integrity": 0
   },
-  "T600A3 Magnetar Shock Cannon":{
-    "Points": 0,
+  "T600A3 Magnetar Shock Cannon": {
+    "Points": 40,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -616,7 +629,7 @@
     "Effective Integrity": 0
   },
   "XM-500 Medusa Phase Cannon": {
-    "Points": 0,
+    "Points": 50,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -629,7 +642,7 @@
     "Effective Integrity": 0
   },
   "Starfall Rocket Artillery": {
-    "Points": 0,
+    "Points": 120,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -641,8 +654,8 @@
     "Charge Reload Time": 0,
     "Effective Integrity": 0
   },
-  "ZS-1200 Ariadne Heavy Railgun":{
-    "Points": 0,
+  "ZS-1200 Ariadne Heavy Railgun": {
+    "Points": 150,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
@@ -655,7 +668,20 @@
     "Effective Integrity": 0
   },
   "NC7-5F Trident Plasma Beam Cannon": {
-    "Points": 0,
+    "Points": 100,
+    "Range (Km)": 0,
+    "Projectile Speed (m/s)": 0,
+    "Shots per Second": 0,
+    "Shots in Clip": 0,
+    "Penetration/Clip (HA Blocks)": 0,
+    "Splash Radius (meters)": 0,
+    "Cycle Time": 0,
+    "Max Energy Draw/s (MW)": 0,
+    "Charge Reload Time": 0,
+    "Effective Integrity": 0
+  },
+  "M98-T Crusader Focus Beam Turret": {
+    "Points": 4,
     "Range (Km)": 0,
     "Projectile Speed (m/s)": 0,
     "Shots per Second": 0,
