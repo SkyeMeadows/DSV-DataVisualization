@@ -149,29 +149,29 @@
   },
   "M600 Tempest Strike Cannon": {
     "Points": 12,
-    "Range (Km)": 0,
-    "Projectile Speed (m/s)": 0,
+    "Range (Km)": 8,
+    "Projectile Speed (m/s)": 800,
     "Shots per Second": 0,
-    "Shots in Clip": 0,
+    "Shots in Clip": 1,
     "Penetration/Clip (HA Blocks)": 0,
     "Splash Radius (meters)": 0,
     "Cycle Time": 0,
     "Max Energy Draw/s (MW)": 0,
     "Charge Reload Time": 0,
-    "Effective Integrity": 0
+    "Effective Integrity": 649800
   },
   "M480 Tsunami Strike Cannon Casemate": {
     "Points": 14,
-    "Range (Km)": 0,
-    "Projectile Speed (m/s)": 0,
+    "Range (Km)": 6,
+    "Projectile Speed (m/s)": 1000,
     "Shots per Second": 0,
-    "Shots in Clip": 0,
+    "Shots in Clip": 1,
     "Penetration/Clip (HA Blocks)": 0,
     "Splash Radius (meters)": 0,
     "Cycle Time": 0,
     "Max Energy Draw/s (MW)": 0,
     "Charge Reload Time": 0,
-    "Effective Integrity": 0
+    "Effective Integrity": 1284667
   },
   "Hunter-405 Coilgun": {
     "Points": 55,
@@ -422,16 +422,16 @@
   },
   "M240 Cyclone Strike Cannon": {
     "Points": 4,
-    "Range (Km)": 0,
-    "Projectile Speed (m/s)": 0,
+    "Range (Km)": 5,
+    "Projectile Speed (m/s)": 1200,
     "Shots per Second": 0,
-    "Shots in Clip": 0,
+    "Shots in Clip": 1,
     "Penetration/Clip (HA Blocks)": 0,
     "Splash Radius (meters)": 0,
     "Cycle Time": 0,
     "Max Energy Draw/s (MW)": 0,
     "Charge Reload Time": 0,
-    "Effective Integrity": 0
+    "Effective Integrity": 513400
   },
   "AC85 Echo Autocannon": {
     "Points": 4,
@@ -552,16 +552,16 @@
   },
   "M480 Hurricane Strike Cannon": {
     "Points": 14,
-    "Range (Km)": 0,
-    "Projectile Speed (m/s)": 0,
+    "Range (Km)": 6,
+    "Projectile Speed (m/s)": 1000,
     "Shots per Second": 0,
-    "Shots in Clip": 0,
+    "Shots in Clip": 2,
     "Penetration/Clip (HA Blocks)": 0,
     "Splash Radius (meters)": 0,
     "Cycle Time": 0,
     "Max Energy Draw/s (MW)": 0,
     "Charge Reload Time": 0,
-    "Effective Integrity": 0
+    "Effective Integrity": 915400
   },
   "KR250 Apollo Railgun Turret": {
     "Points": 25,
@@ -591,16 +591,16 @@
   },
   "M600 Typhoon Strike Cannon": {
     "Points": 40,
-    "Range (Km)": 0,
-    "Projectile Speed (m/s)": 0,
+    "Range (Km)": 8,
+    "Projectile Speed (m/s)": 800,
     "Shots per Second": 0,
-    "Shots in Clip": 0,
+    "Shots in Clip": 3,
     "Penetration/Clip (HA Blocks)": 0,
     "Splash Radius (meters)": 0,
     "Cycle Time": 0,
     "Max Energy Draw/s (MW)": 0,
     "Charge Reload Time": 0,
-    "Effective Integrity": 0
+    "Effective Integrity": 2133125
   },
   "T400A2 Quasar Shock Cannon": {
     "Points": 30,
