@@ -10,6 +10,7 @@ import asyncio
 import logging
 import sys
 import subprocess
+import dotenv
 # ===== START BASIC BOT =====
 
 # Bot Invite Link = https://discord.com/oauth2/authorize?client_id=1405904972142477475&permissions=274878024704&integration_type=0&scope=bot

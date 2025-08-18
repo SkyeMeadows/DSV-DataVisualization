@@ -5,6 +5,7 @@ import matplotlib as mpl # type: ignore
 import numpy as np # type: ignore
 import logging
 import argparse
+import matplotlib.ticker as ticker
 
 
 # Log levels:
@@ -92,12 +93,18 @@ ax1.spines["bottom"].set_color("green")
 ax1.xaxis.label.set_color("green")
 ax1.tick_params(axis="x", colors="green")
 ax1.set_xlabel(chosen_traits[0])
+ax1.xaxis.set_major_formatter(ticker.ScalarFormatter(useMathText=False))
+ax1.ticklabel_format(style="plain", axis="x")
+ax1.xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f"{int(x):,}"))
 
 if args.trait_two:
     ax2.spines["top"].set_color("blue")
     ax2.xaxis.label.set_color("blue")
     ax2.tick_params(axis="x", colors="blue")
     ax2.set_xlabel(chosen_traits[1])
+    ax2.xaxis.set_major_formatter(ticker.ScalarFormatter(useMathText=False))
+    ax2.ticklabel_format(style="plain", axis="x")
+    ax2.xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f"{int(x):,}"))
 
 ax1.set_yticks(y_pos)
 ax1.set_yticklabels([name for name, _ in chosen_weapons])
