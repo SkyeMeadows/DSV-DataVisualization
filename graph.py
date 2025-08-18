@@ -110,7 +110,8 @@ ax1.set_yticks(y_pos)
 ax1.set_yticklabels([name for name, _ in chosen_weapons])
 
 lines, labels = ax1.get_legend_handles_labels()
-lines2, labels2 = ax2.get_legend_handles_labels()
+if args.trait_two:
+    lines2, labels2 = ax2.get_legend_handles_labels()
 ax1.legend(lines + lines2, labels + labels2, loc="lower right")
 
 plt.title("Weapon Comparison")
