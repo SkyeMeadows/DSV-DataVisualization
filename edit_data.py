@@ -7,7 +7,7 @@ data_path = os.path.join(script_dir, "data.json")
 
 count_values_changed = 0
 
-attribute_list = ["Points", "Range (Km)", "Projectile Speed (m/s)", "Shots per Second", "Shots in Clip", "Penetration/Clip (HA Blocks)", "Splash Radius (meters)", "Cycle Time", "Max Energy Draw/s (MW)", "Charge Reload Time", "Effective Integrity"]
+attribute_list = ["Points", "Range (Km)", "Projectile Speed (m/s)", "Firerate (rounds/s)", "Shots in Clip", "Penetration/Clip (HA Blocks)", "Splash Radius (meters)", "Cycle Time (seconds)", "Max Energy Draw/s (MW)", "Charge Reload Time (seconds)", "Effective Integrity"]
 
 while True:
 
