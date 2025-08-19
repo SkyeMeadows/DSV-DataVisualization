@@ -102,7 +102,7 @@ async def create_graph(
 
         log.debug(f"Running subprocess command: {' '.join(command)}")
 
-        result = await subprocess.run(command, capture_output=True, text=True)
+        result = subprocess.run(command, capture_output=True, text=True)
 
         if result.returncode != 0:
             raise RuntimeError(f"Graph Script failed with code {result.returncode}")
