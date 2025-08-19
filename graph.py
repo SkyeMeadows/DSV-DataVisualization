@@ -129,9 +129,15 @@ ax1.set_yticks(y_pos)
 ax1.set_yticklabels([name for name, _ in chosen_weapons])
 
 lines, labels = ax1.get_legend_handles_labels()
+log.debug("Checking if second attribute was chosen")
 if args.trait_two:
+    log.debug("Creating Legend with two axes")
     lines2, labels2 = ax2.get_legend_handles_labels()
-ax1.legend(lines + lines2, labels + labels2, loc="lower right")
+    ax1.legend(lines + lines2, labels + labels2, loc="lower right")
+else:
+    log.debug("Creating Legend with one axis")
+    ax1.legend(lines, labels, loc="lower right")
+
 
 log.debug("Finalizing plot and saving")
 plt.title("Weapon Comparison")
