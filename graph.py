@@ -34,30 +34,30 @@ log = logging.getLogger(__name__)
 
 mpl.set_loglevel("warning")
 
-
+log.debug("Getting file paths")
 data_path = os.path.join(BASE_DIR, "data.json")
 graph_path = os.path.join(BASE_DIR, "Graphs", "graph_memory.png")
 
-with open(data_path) as file:
-    data = json.load(file)
-
-sorted_weapons = sorted(
-    data.items(), 
-    key=lambda item: item[1].get("Points", 0), 
-    reverse=False
-)
-
-weapon_names = [name for name, _ in sorted_weapons]
-points_values = [weapon.get("Points") for _, weapon in sorted_weapons]
-range_values = [weapon.get("Range (Km)") for _, weapon in sorted_weapons]
-
 # === Parse Passed Arguments ===
+log.debug("Parsing Arguments")
 parser = argparse.ArgumentParser(description="TBD")
 parser.add_argument("--weapon_one", type=str, required=True)
 parser.add_argument("--weapon_two", type=str, required=True)
 parser.add_argument("--trait_one", type=str, required=True)
 parser.add_argument("--trait_two", type=str, required=False)
 args = parser.parse_args()
+
+# === Sort Data ===
+log.debug("Reading Weapon Data")
+with open(data_path) as file:
+    data = json.load(file)
+
+log.debug("Sorting Weapon values")
+sorted_weapons = sorted(
+    data.items(), 
+    key=lambda item: item[1].get(args.trait_one, 0), 
+    reverse=False
+)
 
 # === Filtering by Arguments ===
 chosen_weapons = [
