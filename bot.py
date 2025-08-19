@@ -10,7 +10,6 @@ import asyncio
 import logging
 import sys
 import subprocess
-import dotenv
 # ===== START BASIC BOT =====
 
 # Bot Invite Link = https://discord.com/oauth2/authorize?client_id=1405904972142477475&permissions=274878024704&integration_type=0&scope=bot
@@ -103,7 +102,7 @@ async def create_graph(
 
         log.debug(f"Running subprocess command: {' '.join(command)}")
 
-        result = subprocess.run(command, capture_output=True, text=True)
+        result = await subprocess.run(command, capture_output=True, text=True)
 
         if result.returncode != 0:
             raise RuntimeError(f"Graph Script failed with code {result.returncode}")
