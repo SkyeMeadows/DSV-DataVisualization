@@ -91,7 +91,7 @@ async def create_graph(
 
     async def process():
         command = [
-            #venv_python,
+            venv_python,
             str(graphing_script_path),
             "--weapon_one", str(weapon_one),
             "--weapon_two", str(weapon_two),
@@ -104,10 +104,6 @@ async def create_graph(
         log.debug(f"Running subprocess command: {' '.join(command)}")
 
         result = subprocess.run(command, capture_output=True, text=True)
-
-        stdout, stderr = await result.communicate()
-        log.debug(f"STDOUT: {stdout.decode()}")
-        log.debug(f"STDERR: {stderr.decode()}")
 
         if result.returncode != 0:
             raise RuntimeError(f"Graph Script failed with code {result.returncode}")

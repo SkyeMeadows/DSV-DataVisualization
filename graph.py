@@ -1,7 +1,11 @@
 import json
 import os
-import matplotlib.pyplot as plt # type: ignore
+
 import matplotlib as mpl # type: ignore
+mpl.use("Agg")
+
+import matplotlib.pyplot as plt # type: ignore
+
 import numpy as np # type: ignore
 import logging
 import argparse
@@ -29,6 +33,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 mpl.set_loglevel("warning")
+
 
 data_path = os.path.join(BASE_DIR, "data.json")
 graph_path = os.path.join(BASE_DIR, "Graphs", "graph_memory.png")
