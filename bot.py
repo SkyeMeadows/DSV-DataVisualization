@@ -105,6 +105,10 @@ async def create_graph(
 
         result = subprocess.run(command, capture_output=True, text=True)
 
+        stdout, stderr = await result.communicate()
+        print("STDOUT:", stdout.decode())
+        print("STDERR:", stderr.decode())
+
         if result.returncode != 0:
             raise RuntimeError(f"Graph Script failed with code {result.returncode}")
 
