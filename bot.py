@@ -91,7 +91,7 @@ async def create_graph(
 
     async def process():
         command = [
-            venv_python,
+            #venv_python,
             str(graphing_script_path),
             "--weapon_one", str(weapon_one),
             "--weapon_two", str(weapon_two),
