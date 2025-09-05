@@ -1,45 +1,21 @@
-11:51:08 [DEBUG] STREAM b'IHDR' 16 13
-11:51:08 [DEBUG] STREAM b'sBIT' 41 4
-11:51:08 [DEBUG] b'sBIT' 41 4 (unknown)
-11:51:08 [DEBUG] STREAM b'pHYs' 57 9
-11:51:08 [DEBUG] STREAM b'IDAT' 78 1189
-11:51:08 [DEBUG] STREAM b'IHDR' 16 13
-11:51:08 [DEBUG] STREAM b'sBIT' 41 4
-11:51:08 [DEBUG] b'sBIT' 41 4 (unknown)
-11:51:08 [DEBUG] STREAM b'pHYs' 57 9
-11:51:08 [DEBUG] STREAM b'IDAT' 78 2994
-11:51:08 [DEBUG] STREAM b'IHDR' 16 13
-11:51:08 [DEBUG] STREAM b'sBIT' 41 4
-11:51:08 [DEBUG] b'sBIT' 41 4 (unknown)
-11:51:08 [DEBUG] STREAM b'pHYs' 57 9
-11:51:08 [DEBUG] STREAM b'IDAT' 78 374
-11:51:08 [DEBUG] STREAM b'IHDR' 16 13
-11:51:08 [DEBUG] STREAM b'sBIT' 41 4
-11:51:08 [DEBUG] b'sBIT' 41 4 (unknown)
-11:51:08 [DEBUG] STREAM b'pHYs' 57 9
-11:51:08 [DEBUG] STREAM b'IDAT' 78 286
-11:51:08 [DEBUG] STREAM b'IHDR' 16 13
-11:51:08 [DEBUG] STREAM b'sBIT' 41 4
-11:51:08 [DEBUG] b'sBIT' 41 4 (unknown)
-11:51:08 [DEBUG] STREAM b'pHYs' 57 9
-11:51:08 [DEBUG] STREAM b'IDAT' 78 263
-11:51:08 [DEBUG] STREAM b'IHDR' 16 13
-11:51:08 [DEBUG] STREAM b'sBIT' 41 4
-11:51:08 [DEBUG] b'sBIT' 41 4 (unknown)
-11:51:08 [DEBUG] STREAM b'pHYs' 57 9
-11:51:08 [DEBUG] STREAM b'IDAT' 78 387
-11:51:08 [DEBUG] STREAM b'IHDR' 16 13
-11:51:08 [DEBUG] STREAM b'sBIT' 41 4
-11:51:08 [DEBUG] b'sBIT' 41 4 (unknown)
-11:51:08 [DEBUG] STREAM b'pHYs' 57 9
-11:51:08 [DEBUG] STREAM b'IDAT' 78 436
-11:51:08 [DEBUG] STREAM b'IHDR' 16 13
-11:51:08 [DEBUG] STREAM b'sBIT' 41 4
-11:51:08 [DEBUG] b'sBIT' 41 4 (unknown)
-11:51:08 [DEBUG] STREAM b'pHYs' 57 9
-11:51:08 [DEBUG] STREAM b'IDAT' 78 351
-11:51:08 [DEBUG] STREAM b'IHDR' 16 13
-11:51:08 [DEBUG] STREAM b'sBIT' 41 4
-11:51:08 [DEBUG] b'sBIT' 41 4 (unknown)
-11:51:08 [DEBUG] STREAM b'pHYs' 57 9
-11:51:08 [DEBUG] STREAM b'IDAT' 78 364
+21:54:42 [DEBUG] Getting file paths
+21:54:42 [DEBUG] Parsing Arguments
+21:54:42 [DEBUG] Reading Weapon Data
+21:54:42 [DEBUG] Sorting Weapon values
+21:54:42 [DEBUG] Filtering by Arguments - Weapon names
+21:54:42 [DEBUG] Filtering by Arguments - Traits
+21:54:42 [DEBUG] Isolating chosen weapons
+21:54:42 [DEBUG] Setting y_pos, bar height, and offset
+21:54:42 [DEBUG] Started graphing
+21:54:42 [DEBUG] Gathering data for first attribute plot
+21:54:42 [DEBUG] Checking if second attribute was chosen
+21:54:42 [DEBUG] No second attribute, plotting single bar per weapon
+21:54:42 [DEBUG] Checking if second attribute was chosen
+21:54:42 [DEBUG] Plotting second attribute with offset
+21:54:42 [DEBUG] Formatting the graph, first axis
+21:54:42 [DEBUG] Checking if second attribute was chosen
+21:54:42 [DEBUG] Formatting the graph, second axis
+21:54:42 [DEBUG] Setting y-ticks and y-labels
+21:54:42 [DEBUG] Checking if second attribute was chosen
+21:54:42 [DEBUG] Creating Legend with two axes
+21:54:42 [DEBUG] Finalizing plot and saving

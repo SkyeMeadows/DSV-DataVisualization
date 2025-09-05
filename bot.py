@@ -71,22 +71,44 @@ async def on_ready():
 # Paths
 graphing_script_path = os.path.join(BASE_DIR, "graph.py")
 graph_file_path = os.path.join(BASE_DIR, "Graphs", "graph_memory.png")
+filepath_weapon_names = os.path.join(BASE_DIR, "weapon_names.json")
+filepath_attribute_names = os.path.join(BASE_DIR, "attribute_names.json")
+
+with open(filepath_weapon_names) as file:
+    weapon_names = json.load(file)
+
+with open(filepath_attribute_names) as file:
+    attribute_names = json.load(file)
+
+class MyBot(discord.Client):
+    def __init__(self):
+        super().__init__(intents=discord.Intents.default())
+        self.tree = app_commands.CommandTree(self)
+
+bot = MyBot()
 
 
 @bot.tree.command(name="compare_specific_weapons", description="Get a graph comparing a category of weapons.")
 @app_commands.describe(
     weapon_one="Display Name of a weapon",
     weapon_two="Display Name of a weapon",
-    trait_one="A trait/attribute you would like to compare",
-    trait_two="A trait/attribute you would like to compare"
+    trait_one="A trait or attribute you would like to compare",
+    trait_two="A trait or attribute you would like to compare"
+)
+@app_commands.choices(
+    weapon_one=[app_commands.Choice(name=w, value=w) for w in weapon_names],
+    weapon_two=[app_commands.Choice(name=w, value=w) for w in weapon_names],
+    trait_one=[app_commands.Choice(name=w,value=w) for w in attribute_names],
+    trait_two=[app_commands.Choice(name=w,value=w) for w in attribute_names],
 )
 async def create_graph(
     interaction: discord.Interaction,
-    weapon_one: Literal["M240 Cyclone Strike Cannon", "M480 Hurricane Strike Cannon", "M600 Typhoon Strike Cannon"], 
-    weapon_two: Literal["M240 Cyclone Strike Cannon", "M480 Hurricane Strike Cannon", "M600 Typhoon Strike Cannon"],
-    trait_one: Literal["Points", "Range (Km)", "Projectile Speed (m/s)", "Firerate (rounds/s)", "Shots in Clip", "Penetration/Clip (HA Blocks)", "Splash Radius (meters)", "Cycle Time (seconds)", "Max Energy Draw/s (MW)", "Charge Reload Time (seconds)", "Effective Integrity"],
-    trait_two: Optional[Literal["Points", "Range (Km)", "Projectile Speed (m/s)", "Firerate (rounds/s)", "Shots in Clip", "Penetration/Clip (HA Blocks)", "Splash Radius (meters)", "Cycle Time (seconds)", "Max Energy Draw/s (MW)", "Charge Reload Time (seconds)", "Effective Integrity"]]
-):
+    weapon_one: str, 
+    weapon_two: str,
+    trait_one: str,
+    trait_two: str,
+    
+   ):
 
     async def process():
         command = [
@@ -113,6 +135,6 @@ async def create_graph(
     except asyncio.TimeoutError:
         await interaction.followup.send("Process took too long (30s timeout).", ephemeral=True)
 
-    await interaction.response.send_message(file=discord.File(graph_file_path))
+    await interaction.followup.send(file=discord.File(graph_file_path))
 
 bot.run(TOKEN)

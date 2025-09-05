@@ -1,0 +1,13 @@
+[
+    "Points", 
+    "Range (Km)", 
+    "Projectile Speed (m/s)", 
+    "Firerate (rounds/s)", 
+    "Shots in Clip", 
+    "Penetration/Clip (HA Blocks)", 
+    "Splash Radius (meters)", 
+    "Cycle Time (seconds)",
+    "Max Energy Draw/s (MW)", 
+    "Charge Reload Time (seconds)", 
+    "Effective Integrity"
+]

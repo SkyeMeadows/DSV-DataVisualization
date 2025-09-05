@@ -53,10 +53,10 @@
   },
   "HA-4ML2 Poseidon Salvo Launcher": {
     "Points": 30,
-    "Range (Km)": 0,
+    "Range (Km)": 10,
     "Projectile Speed (m/s)": 0,
     "Firerate (rounds/s)": 0,
-    "Shots in Clip": 0,
+    "Shots in Clip": 8,
     "Penetration/Clip (HA Blocks)": 0,
     "Splash Radius (meters)": 0,
     "Cycle Time (seconds)": 0,
